@@ -1,0 +1,102 @@
+*{
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "HeeboBold"; 
+  src: url('./Fonts/Heebo-Bold.ttf') format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+  } 
+
+@font-face {
+  font-family: "HeeboRegular"; 
+  src: url('./Fonts/Heebo-Regular.ttf') format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+  } 
+
+.header_nav_list{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 86px;
+}
+
+.nav_header{
+max-width: 1021px;
+}
+
+.header_conteiner{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main_nav_item{
+  font-family: "HeeboBold";
+  padding-left: 15px;
+
+}
+.main_nav_item:first-child {
+  padding: 0px;
+}
+  
+.main_nav_link{
+  color: black;
+}
+.main_nav_link:hover{
+color: #FF6464;
+}
+
+
+.Welcome{
+  margin-top: 158px;
+}
+.conteiner{
+  max-width: 858px;
+  margin: 0 auto;
+}
+
+.welcome_wrap{
+display: flex;
+}
+
+.welcome_text{
+font-family: "HeeboBold";
+font-style: normal;
+font-weight: bold;
+font-size: 44px;
+line-height: 60px;
+}
+.welcome_paragraph{
+font-family: "HeeboRegular"; 
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+margin-top: 40px;
+margin-bottom: 38px;
+}
+.welcome_button{
+  width: 208px;
+  height: 47px;
+  background: #FF6464;
+  border-radius: 2px;
+  color: white;
+}
+
+
+.welcome_photo{
+  padding-left: 110px;
+}
+.welcome_img{
+  height: 243px;
+  border-radius: 50%;
+  width: 243px;
+}
+
+
+
