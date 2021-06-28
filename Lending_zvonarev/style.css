@@ -26,7 +26,7 @@
   height: 86px;
 }
 
-.nav_header{
+.header_nav{
 max-width: 1021px;
 }
 
@@ -35,24 +35,24 @@ max-width: 1021px;
   margin: 0 auto;
 }
 
-.main_nav_item{
+.header_nav_item{
   font-family: "HeeboBold";
   padding-left: 15px;
 
 }
-.main_nav_item:first-child {
+.header_nav_item:first-child {
   padding: 0px;
 }
   
-.main_nav_link{
+.header_nav_link{
   color: black;
 }
-.main_nav_link:hover{
+.header_nav_link:hover{
 color: #FF6464;
 }
 
 
-.Welcome{
+.welcome{
   margin-top: 158px;
 }
 .conteiner{
