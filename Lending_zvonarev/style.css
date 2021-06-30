@@ -54,6 +54,7 @@ color: #FF6464;
 
 .welcome{
   margin-top: 158px;
+  margin-bottom: 86px;
 }
 .conteiner{
   max-width: 858px;
@@ -98,5 +99,100 @@ margin-bottom: 38px;
   width: 243px;
 }
 
+/* Section of post */
 
+.posts{
+  background-color: #EDF7FA;
 
+}
+
+.posts__wrapper{
+  padding: 25px 0 25px 0;
+}
+
+.posts__header{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.posts__recent-paragraph{
+font-family: "HeeboRegular"; 
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 60px;
+color: #21243D;
+}
+
+.posts__view-link{
+font-family: "HeeboRegular"; 
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+color: #00A8CC;
+}
+.posts__view{
+  align-self: center;
+}
+.posts__recent{
+  padding: 5px;
+}
+
+.post{
+  max-width: 418px;
+  background-color:#fff;
+  border-radius: 4px;
+  box-shadow: rgba(187, 225, 250, 0.25);
+  display: flex;
+  margin: 0;
+}
+
+.posts__content{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 47px;
+}
+.post__inner{
+  padding: 24px 30px 30px 31px;
+  background: #fff;
+  max-width: 350px;
+}
+
+/* .post > div:nth-child(1){ */
+  /* margin-right: 25px; */
+/* } */
+
+.post__inner-text{
+font-family: "HeeboRegular";;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 38px;
+color: #21243D;
+}
+
+.post__info{
+display: flex;
+font-family: "HeeboRegular"; 
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+margin-top: 17px;
+margin-bottom: 11px;
+}
+
+.post__info-sign{
+padding: 0 30px 0 30px;
+}
+
+.post__inner-description{
+font-family: "HeeboRegular"; 
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23,5px;
+color: #21243D;
+}
