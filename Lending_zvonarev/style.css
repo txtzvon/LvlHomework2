@@ -196,3 +196,271 @@ font-size: 16px;
 line-height: 23,5px;
 color: #21243D;
 }
+
+
+/* Section fetured */
+
+.featured__header{
+  margin-bottom: 22px;
+}
+
+.featured__header--text{
+font-family: "HeeboRegular"; 
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 60px;
+color: #21243D;
+}
+.featured__content{
+  display: flex;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #E0E0E0;
+}
+.featured__content--picture{
+  margin-right: 18px;
+}
+
+.featured__content--img{
+height: 180px;
+width: 246px;
+}
+
+.featured__content--heading{
+  font-family: "HeeboBold";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+  padding-top: 0px;
+  margin-bottom: 16px;
+}
+.featured__info{
+  display: flex;
+}
+.featured__info--date{
+  display: block;
+  width: 62px;
+  height: 25px;
+  margin-right: 26px;
+}
+
+.featured__info--year{
+font-family: "HeeboBold";
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+display: block;
+color: #fff;
+background: #142850;
+border-radius: 16px;
+text-align: center;
+}
+
+.featured__info--text{
+font-family: "HeeboRegular";
+font-style: normal;
+font-weight: normal;
+font-size: 21px;
+line-height: 29.38px;
+color: #8695A4;
+}
+.featured__content--text{
+margin-top: 17px;
+font-family: "HeeboRegular";
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23.5px;
+color:#21243D;
+}
+
+.featured__content:nth-child(n+1){
+margin-top: 31px;
+}
+
+.footer__links{
+ display: flex;
+ justify-content: space-around;
+ max-width: 262px;
+ margin: 0 auto;
+ margin-top: 115px;
+}
+
+.footer__text{
+  display: flex;
+  justify-content: center;
+  margin-top: 26px; 
+  font-family: "HeeboRegular"; 
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #21243D;
+}
+
+.footer__links--link{
+  cursor: pointer;
+}
+
+
+/* Adaptive */
+
+@media (max-width: 375px){
+.header{
+  display: none;
+}
+
+.welcome_wrap{
+  flex-direction: column-reverse;
+}
+.welcome_photo{
+  padding: 0px;
+  justify-content: center;
+  display: flex;
+}
+.welcome_img{
+  width: 170.86px;
+  height: 170.86px;
+}
+.welcome_text{
+  max-width: 312px;
+  margin-top: 34px;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  margin-left: 32px;
+  margin-right: 31px;
+  margin-bottom: 21px;
+}
+.welcome_paragraph{
+  max-width: 328px;
+  margin-left: 24px;
+  margin-right: 23px;
+  margin-bottom: 27px;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+}
+.welcome_button{
+  width: 208px;
+  height: 47px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.welcome{
+  margin-bottom: 0px;
+}
+
+/* Adaptive posts */
+
+.posts{
+  background-color: #fff;
+}
+.posts__view{
+  display: none; 
+}
+
+.posts__wrapper{
+  display: flex;
+  justify-content: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 51px;
+}
+
+.posts__recent-paragraph{
+  font-size: 18px;
+  line-height: 60px;
+}
+
+.posts__content{
+  flex-direction: column;
+}
+.post__inner{
+  padding-top: 0px;
+  margin-left: 11px;
+  margin-right: 10px;
+  padding-left: 19px;
+  padding-right: 21px;
+  padding-bottom: 22px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+  border-radius: 4px;
+}
+.post__inner-text{
+  font-size: 22px;
+  line-height: 30px;  
+}
+.post__info-date .post__info-sign .posts__recent-paragraph{
+  font-size: 16px;
+line-height: 23px;
+}
+.post__info{
+  margin-top: 12px;
+  margin-bottom: 19px;
+}
+.post__inner-description{
+font-size: 16px;
+line-height: 23px;
+}
+.post:nth-child(1){
+margin-bottom: 17px;
+}
+
+/* Adaptive of featured */
+
+.featured__header{
+  text-align: center;
+  margin-top: 41px;
+  margin-bottom: 0px;
+}
+.featured__header--text{
+  font-size: 18px;
+  line-height: 60px;
+}
+.featured__content--img{
+  height: 220px;
+  width: 339px;
+}
+.featured__content:nth-child(n+2){
+  display: none;
+}
+.featured__content{
+  flex-direction: column;
+  display: flex;
+}
+.featured__content--picture{
+  margin-right: 0px;
+  margin: 0 auto;
+}
+.featured__content:nth-child(n+1) {
+  margin-top: 2px;
+}
+.featured__content--right{
+  margin-left: 18px;
+}
+.featured__content--heading{
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 17px; 
+}
+.featured__info--year .featured__info--text{
+  font-size: 16px;
+}
+.feature__content--text{
+  margin-top: 25px;
+}
+
+/* Adaptive footer */
+
+.footer__links{
+  margin-top: 150px;
+}
+.footer__text{
+  margin-bottom: 54px;
+}
+
+
+}
