@@ -19,35 +19,35 @@
   font-weight: normal; 
   } 
 
-.header_nav_list{
+.header__nav--list{
   display: flex;
   justify-content: flex-end;
   align-items: center;
   height: 86px;
 }
 
-.header_nav{
+.header__nav{
 max-width: 1021px;
 }
 
-.header_conteiner{
+.header__wrap{
   max-width: 1200px;
   margin: 0 auto;
 }
 
-.header_nav_item{
+.header__nav--item{
   font-family: "HeeboBold";
   padding-left: 15px;
 
 }
-.header_nav_item:first-child {
+.header__nav--item:first-child {
   padding: 0px;
 }
   
-.header_nav_link{
+.header__nav--link{
   color: black;
 }
-.header_nav_link:hover{
+.header__nav--link:hover{
 color: #FF6464;
 }
 
@@ -61,18 +61,18 @@ color: #FF6464;
   margin: 0 auto;
 }
 
-.welcome_wrap{
+.welcome__wrap{
 display: flex;
 }
 
-.welcome_text{
+.welcome__text{
 font-family: "HeeboBold";
 font-style: normal;
 font-weight: bold;
 font-size: 44px;
 line-height: 60px;
 }
-.welcome_paragraph{
+.welcome__paragraph{
 font-family: "HeeboRegular"; 
 font-style: normal;
 font-weight: normal;
@@ -81,7 +81,7 @@ line-height: 23px;
 margin-top: 40px;
 margin-bottom: 38px;
 }
-.welcome_button{
+.welcome__button{
   width: 208px;
   height: 47px;
   background: #FF6464;
@@ -90,10 +90,10 @@ margin-bottom: 38px;
 }
 
 
-.welcome_photo{
+.welcome__photo{
   padding-left: 110px;
 }
-.welcome_img{
+.welcome__img{
   height: 243px;
   border-radius: 50%;
   width: 243px;
@@ -116,7 +116,7 @@ margin-bottom: 38px;
 
 }
 
-.posts__recent-paragraph{
+.posts__recent--paragraph{
 font-family: "HeeboRegular"; 
 font-style: normal;
 font-weight: normal;
@@ -125,7 +125,7 @@ line-height: 60px;
 color: #21243D;
 }
 
-.posts__view-link{
+.posts__view--link{
 font-family: "HeeboRegular"; 
 font-style: normal;
 font-weight: normal;
@@ -160,11 +160,8 @@ color: #00A8CC;
   max-width: 350px;
 }
 
-/* .post > div:nth-child(1){ */
-  /* margin-right: 25px; */
-/* } */
 
-.post__inner-text{
+.post__inner--text{
 font-family: "HeeboRegular";;
 font-style: normal;
 font-weight: bold;
@@ -184,11 +181,11 @@ margin-top: 17px;
 margin-bottom: 11px;
 }
 
-.post__info-sign{
+.post__info--sign{
 padding: 0 30px 0 30px;
 }
 
-.post__inner-description{
+.post__inner--description{
 font-family: "HeeboRegular"; 
 font-style: normal;
 font-weight: normal;
@@ -311,19 +308,19 @@ margin-top: 31px;
   display: none;
 }
 
-.welcome_wrap{
+.welcome__wrap{
   flex-direction: column-reverse;
 }
-.welcome_photo{
+.welcome__photo{
   padding: 0px;
   justify-content: center;
   display: flex;
 }
-.welcome_img{
+.welcome__img{
   width: 170.86px;
   height: 170.86px;
 }
-.welcome_text{
+.welcome__text{
   max-width: 312px;
   margin-top: 34px;
   font-size: 32px;
@@ -333,7 +330,7 @@ margin-top: 31px;
   margin-right: 31px;
   margin-bottom: 21px;
 }
-.welcome_paragraph{
+.welcome__paragraph{
   max-width: 328px;
   margin-left: 24px;
   margin-right: 23px;
@@ -342,7 +339,7 @@ margin-top: 31px;
   line-height: 23px;
   text-align: center;
 }
-.welcome_button{
+.welcome__button{
   width: 208px;
   height: 47px;
   position: relative;
@@ -370,7 +367,7 @@ margin-top: 31px;
   margin-top: 51px;
 }
 
-.posts__recent-paragraph{
+.posts__recent--paragraph{
   font-size: 18px;
   line-height: 60px;
 }
@@ -389,11 +386,11 @@ margin-top: 31px;
   box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
   border-radius: 4px;
 }
-.post__inner-text{
+.post__inner--text{
   font-size: 22px;
   line-height: 30px;  
 }
-.post__info-date .post__info-sign .posts__recent-paragraph{
+.post__info--date .post__info--sign .posts__recent--paragraph{
   font-size: 16px;
 line-height: 23px;
 }
@@ -401,7 +398,7 @@ line-height: 23px;
   margin-top: 12px;
   margin-bottom: 19px;
 }
-.post__inner-description{
+.post__inner--description{
 font-size: 16px;
 line-height: 23px;
 }
